@@ -1,0 +1,20 @@
+[project]
+name = "florence-bitemporal"
+version = "0.1.0"
+description = "Modular Florence-2 bi-temporal remote sensing pipeline."
+requires-python = ">=3.9"
+dependencies = [
+  "torch",
+  "transformers",
+  "peft",
+  "pillow",
+  "opencv-python",
+  "numpy",
+  "matplotlib",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
