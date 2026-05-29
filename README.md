@@ -108,7 +108,7 @@ The system fine-tunes Florence-2 with lightweight adaptation modules and a custo
 </p>
 
 <p align="center">
-  <b>Figure 1.</b> CVPR-style architecture of the proposed Florence-2 bi-temporal remote sensing framework.
+  <b>Figure 1.</b> Architecture of the proposed Florence-2 bi-temporal remote sensing framework.
 </p>
 
 The model consists of the following major components:
